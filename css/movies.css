@@ -1,0 +1,15 @@
+.heading{
+	text-align: center;
+	font-family: courier;
+	letter-spacing: 1.3rem;
+	font-weight: 500%;
+	padding-top: 10px;
+	font-size: 1.5rem;
+}
+.movielist img{
+	width: 250px;
+	height: 400px;
+	padding-left: 65px;
+	padding-bottom: 70px;
+	padding-top: 50px;
+}

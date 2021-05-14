@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: courier;
+}
+a{
+	text-decoration: none;
+}
+.register-container{
+	background-image: url(https://redpithemes.com/Documentation/assets/img/page_bg/page_bg_blur02.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.register-inputs{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.register-inputs h1{
+	color: darkslategray;
+	font-size: 3rem;
+	letter-spacing: 3px;
+	margin: 10px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	font-family: Magmawa Caps;
+}
+.register-inputs form{
+	background-color: #23243c;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.register-inputs form input{
+	margin: 10px;
+	width: 250px;
+	height: 30px;
+	background-color: #434459;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	padding: 5px 10px;
+	outline: none;
+}
+.register-inputs for input::placeholder{
+	color: #727383;
+}
+.register-inputs form button{
+	text-transform: uppercase;
+	width: 110px;
+	height: 35px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	margin: 5px;
+	font-weight: 600%;
+	background-color: #3b70e0;
+	color: #fff;
+	font-size: 12px;
+	font-family: poppins;
+	letter-spacing: 1px;
+
+}
+.register-inputs form button:hover{
+	background-color: rgba(125,49,247);
+	transition: all ease 0.3s;
+}
+.register-container.movie-container {
+  margin: 20px 0;
+}
+
+.register-container.movie-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.register-container.movietime-container {
+  margin: 20px 0;
+}
+
+.register-container.movietime-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+
+.container {
+  perspective: 1000px;
+  margin-bottom: 30px;
+}

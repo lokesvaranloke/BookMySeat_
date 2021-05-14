@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: courier;
+}
+a{
+	text-decoration: none;
+}
+.login-container{
+	background-image: url(https://redpithemes.com/Documentation/assets/img/page_bg/page_bg_blur02.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.login-inputs{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.login-inputs h1{
+	color: darkslategray;
+	font-size: 3rem;
+	letter-spacing: 3px;
+	margin: 10px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	font-family: Magmawa Caps;
+}
+.login-inputs form{
+	background-color: #23243c;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.login-inputs form input{
+	margin: 10px;
+	width: 250px;
+	height: 30px;
+	background-color: #434459;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	padding: 5px 10px;
+	outline: none;
+}
+.login-inputs for input::placeholder{
+	color: #727383;
+}
+.login-inputs form button{
+	text-transform: uppercase;
+	width: 110px;
+	height: 35px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	margin: 5px;
+	font-weight: 600%;
+	background-color: #3b70e0;
+	color: #fff;
+	font-size: 12px;
+	font-family: poppins;
+	letter-spacing: 1px;
+}
+.forget{
+	color: #62627d;
+	margin: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.9rem;
+	border-bottom: 1px solid #62627d;
+}
+.register{
+	color: #62627d;
+	margin: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.9rem;
+	border-bottom: 1px solid #62627d;
+}
+.login-inputs form button:hover{
+	background-color: rgba(125,49,247);
+	transition: all ease 0.3s;
+}
