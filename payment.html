@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Register</title>
+	<link rel="stylesheet" type="text/css" href="css/payment.css">
+</head>
+<body>
+	<section class="payment-container">
+		<div class="payment-inputs">
+			<h1>Payment</h1>
+				<form action="payment.php" method="post">
+					<input type="text" name="card" placeholder="Credit Card No">
+					<input type="text" name="bank" placeholder="Bank Name">
+					<input type="text" name="expire" placeholder="MM:YY">
+					<input type="text" name="mobile" placeholder="Mobile No">
+					<input type="text" name="cvv" placeholder="CVV">
+					<input type="password" name="password" placeholder="Password">
+					<button type="submit" onclick="clicked();">Pay</button>
+				</form>	
+			</div>
+		</section>
+	<script type="text/javascript">
+    function clicked() {
+    var ask = window.confirm("Do you want to pay?");
+    if (ask) {
+        window.alert("Payment successful.");
+
+  
+
+    }
+}
+
+</script><1--
+</body>
+</html>
